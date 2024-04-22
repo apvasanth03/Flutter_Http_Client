@@ -1,0 +1,20 @@
+name: network_layer
+
+packages:
+  - app
+  - libraries/**
+
+command:
+  bootstrap:
+    environment:
+      sdk: '>=3.3.3 <4.0.0'
+      flutter: ">=1.17.0"
+
+    dependencies:
+        cupertino_icons: ^1.0.2
+        http: ^1.2.1
+        json_annotation: ^4.8.1
+
+    dev_dependencies:
+      build_runner: ^2.4.9
+      json_serializable: ^6.7.1

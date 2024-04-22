@@ -1,25 +1,7 @@
 name: network_layer
-description: A new Flutter project.
-publish_to: 'none' # Remove this line if you wish to publish to pub.dev
-
-version: 1.0.0+1
 
 environment:
   sdk: '>=3.1.5 <4.0.0'
 
-dependencies:
-  flutter:
-    sdk: flutter
-
-  cupertino_icons: ^1.0.2
-  http: ^1.2.1
-  json_annotation: ^4.8.1
-
 dev_dependencies:
-  build_runner: ^2.4.9
-  flutter_test:
-    sdk: flutter
-  json_serializable: ^6.7.1
-
-flutter:
-  uses-material-design: true
+  melos: ^5.3.0
